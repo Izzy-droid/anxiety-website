@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Inner Healing</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="reset-webview.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+  <!--popup-->
+  <div class="popup" id="popup-id">
+    <div class="overlay">
+     
+       
+       <div class="content">
+         <div class="close-btn" onclick="togglePopup()">&times;</div>
+   
+         <h1>Subscribe to Inner Healing's Newsletter</h1>
+         <p>You'll receive additional facts and resources for all things anxiety.</p>
+         <p>Weekly!</p>
+   
+          <div class="sensitive-info">
+   
+          <form onSubmit="alertForm()">
+            <input type="text" class="popup-input"  placeholder="Enter your name: " required minlength="3">
+            <br>
+            <input type="text" class="popup-input" placeholder="Enter your email: " required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+           
+            <button class="sub-btn">Subscribe</button>
+          </form>
+   
+       </div>
+     </div>
+     </div>
+    </div>
+
+
+
+
+
+  <div class="active">
+  <div class="header-container">
+    <div class="header-item">
+      <h1 class="start" id="bigtitle">Inner Healing</h1>
+    </div>
+    <div class="header-item">
+      <h2 class="start">More on Anxiety healing</h2>
+    </div>
+  </div>
+  <!--- About --->
+   <div class="active">
+     <div class="header-manage">
+       <h3 class="intro-manage">How to learn more about your anxiety and it's effects on daily life. Anxiety is one of the most common mood
+    disorders in America. Characterized by excessive worry, fear, or stress, it can lead to a range of emotional and
+    physical symptoms.</h3>
+     </div>
+    <div id="header-button">
+      <button class="button">Treatments</button> 
+      <button class="button">Personal stories</button>
+    </div>
+   </div>
+  <br>
+
+  <div id="header-img" class="revealable"><img src="https://info.thecrossingchurch.com/hubfs/Imported_Blog_Media/How-to-Defeat-Worry_Blog.jpg" width="300"
+    height="300" alt="picture of a woman worrying"/> 
+   </div> 
+  </div>
+  <div class="revealable">
+  <h4 class="mini">Generalized Anxiety Disorder</h4>
+  <p class="gen">It's easy for anxiety to take over your life, depending on what it manifests as. In some this is
+    intrusive thoughts invading your mind daily, others it's the fear of physical symptoms or loss of control during
+    panic attacks. </p>
+  <br>
+  <img
+    src="https://images.prismic.io/cerebral/42857718-d8da-4e17-8a20-b8d1fdd31158_Panic%20Attacks.png?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&w=3420&h=1897"
+    width="350" height="300" alt="picture of a woman during a panic attack" />
+  <h4 class="mini">Panic Disorder</h4>
+  <p class="gen">Panic attacks can be a common occurrence in people with anxiety, it is sudden moment of intense fear
+    and include physical symptoms like:</p>
+    <ul class="listy">
+      <li>Chest pain</li> 
+      <li>Headache</li> 
+      <li>Shortness of breath.</li>
+    </ul>
+    
+    <p class="gen">Depending on the person, the
+    attack can last for hours or even days. </p>
+  <br>
+  <div class="action">
+  <iframe class="fix" width="500" height="300" src="https://www.youtube.com/embed/_OtHCucLkFw?si=716p-gwJPq5pOwjK"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+  </div>
+  <br>
+  <div class="revealable arrange-services">
+  <p class="mini">More details</p>
+  <h3><a href="https://www.healthline.com/health/anxiety-causes" class="links">Potential causes of anxiety </a></h3>
+  <p class="gen">It's important to took note so that you can properly assess what might've triggered anxiety in the
+    first place.</p>
+
+  <h3><a
+      href="https://www.banyanmentalhealth.com/2019/11/25/short-and-long-term-effects-of-anxiety-on-the-body/#:~:text=Gastrointestinal%20disorders%3A%20Anxiety%20frequently%20results,ongoing%20pain%20in%20the%20muscles." class="links">The
+      long term effects of anxiety on the body and mind</a></h3>
+  <p class="gen">Keep in mind that, anxiety causes a constant stream of cortisol in the body which wasn't mean to last
+    long-term in the body, so imagine the effects long-term.</p>
+ </div>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ 
+  </div>
+
+  
+
+  <div class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="holistic.html">Holistic methods</a></li>
+      <li><a href="services.html">Find nearby services</a></li>
+      <li ><button id="theme-button">Toggle Dark Mode</button></li>
+      
+      
+    </ul>
+  </div>
+  
+ <!--Keeping this here because revealable doesn't show up if it's not?-->
+  <button id="sign-now-button"></button>
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  
+    
+</div>
+  <div class="footer-container">
+    <a href="https://www.healthline.com/health/mental-health/how-to-cope-with-anxiety" id="footlink1">Learn More</a>
+    <a href="https://6e97999d-e47d-4bcb-90c7-41d8a63edba5-00-3k42rwkq9fi1p.janeway.replit.dev/" id="footlink2">Contact Us</a>
+    
+  <script src="index.js"></script>
+  <script src="popup.js"></script>
+</body>
+
+</html> 

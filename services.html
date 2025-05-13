@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Inner Healing</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="reset-webview.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+<div class="popup" id="popup-id">
+ <div class="overlay">
+  
+    
+    <div class="content">
+      <div class="close-btn" onclick="togglePopup()">&times;</div>
+
+      <h1>Subscribe to Inner Healing's Newsletter</h1>
+      <p>You'll receive additional facts and resources for all things anxiety.</p>
+      <p>Weekly!</p>
+
+       <div class="sensitive-info">
+
+       <form>
+         <input type="text" class="popup-input"  placeholder="Enter your name: " required minlength="3">
+         <br>
+         <input type="text" class="popup-input" placeholder="Enter your email: " required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+        
+         <button class="sub-btn">Subscribe</button>
+       </form>
+
+    </div>
+  </div>
+  </div>
+ </div>
+
+  <div class="active">
+  <div class="header-container">
+    <div class="header-item">
+      <h1 class="start" id="bigtitle">Inner Healing</h1>
+    </div>
+    <div class="header-item">
+      <h2 class="start">More on Nearby services</h2>
+    </div>
+  </div>
+  <!--- About --->
+   <div class="active">
+    
+    <div id="header-button">
+      <button class="button">Treatments</button> 
+      <button class="button">Personal stories</button>
+    </div>
+   </div>
+  <br>
+
+  
+<br>
+<br>
+<br>
+<br>
+<br>
+
+  <!-- Part 1: Navbar Starter Code -->
+
+  <div class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="holistic.html">Holistic methods</a></li>
+      <li><a href="services.html">Find nearby services</a></li>
+      <li ><button id="theme-button">Toggle Dark Mode</button></li>
+      
+      <!-- Stretch Challenge: Drop Down -->
+    </ul>
+  </div>
+
+
+  
+
+  
+
+  <br>
+  <br>
+  <br>
+  <br>
+ <!--google map is here-->
+ <div id="goog_map" style="height: 400px; width: 100%;"></div>
+ <br>
+ <br>
+ <br>
+ <div class="map-services">
+   <h4><b>Resources not shown above:</b></h4>
+   <!--TODO:update with more resources-->
+   <p><a href="https://www.psychologytoday.com/us">PsychologyToday.com</a> - This is a pricey but convenient option since there's lots of therapists with various way to pay and could support online options.</p>
+   
+   <p><a href="https://www.cheservices.com/">CHE Counseling</a>- They operate online through their various counselors/psychologists (and inpatient as well but I can't speak on the subject since I haven't had much experience.) and in serve in FL, NY, GA, NJ, TN, NC, SC, CA, and CT. In my experience, it had a good service and I don't regret it (just mind the charges).</p>
+   <p>Your University- typical, a University will have free counseling/therapy included in your tuition for examples <a href="https://dasa.fiu.edu/all-departments/counseling-and-psychological-services/">FIU</a> and <a href="https://counseling.ufl.edu/">UF</a> both have counseling services available to students, but check in with your school just in case as this might not be the case for every University.</p>
+   <p><a href="https://www.lotuscounseling.com/">Lotus Counseling</a>- located in Miami, they serve all ages and provide various services like assestments, family counseling and online medicine management. (Please contact them for financial details). | 2121 SW 3rd Ave #101, Miami, FL 33129 | (305)-915-5748 |</p>
+   <p><a href="https://www.centerforchildcounseling.org/">Center for Child Counseling</a>- Counseling specificially for children, located in Palm Beach Gardens. They take various insurances including medicaid and private. | (561)-244-9499 | </p>
+ </div>
+ <div class="arrange-services" id="arrange-services">
+   <h4><b>If you can't afford it:</b></h4>
+   <h3>Since it counts as a medical service and therefore, psychological help can be expensive (especially therapy), here's some low to no cost options that won't replace professional help but can at least help your anxiety.</h3>
+   <br>
+   <p><a href="https://988lifeline.org/get-help/">988</a> and 221- both are helplines that are of no cost and are for those anywhere in the U.S., even if you just want to vent to someone and fear being judged. Their job is to listen and to guide you through some tough moments. They'll give resources in your area if you really need some more help.</p>
+   <p>At least in the state of Florida, there is a service for <a href="https://survey.pbcgov.com/s3/YSD-Appointment-Information-Request">free child and family counseling</a> for 10 weeks with a psych. intern with a psychologist, from what I've heard it seems to be well organized and have counselors really care about their clients for the time done. You can even receive individual therapy for ages 18-22.</p>
+   <p>Online forums (such as subreddits or discord servers)- I only put this here because there's a lot of people that can relate and you could potentially meet people but don't overely on them because it could backfire and might cause you to fixate (especially with health anxiety).</p>
+
+   <p>You can ultilize youtube channels, one I recommend is the <a href="https://www.youtube.com/c/TheAnxietyGuy1/videos">Anxiety Guy</a>- he explains underlying behaviors and potential reasons for certain behaviors and ways to change them, as well as "surrender" videos that promote relaxing into the anxiety instead of fighting it.</p>
+
+   <p>There's always the try and true advice to exercise since it's proven to <a href="https://www.healthline.com/health/depression/exercise">enhance mood</a> and make us resilent to stress due to the endorphins produced. It doesn't even have to be high intensity activities, yoga and swimming are both great too (in the case of exercise-induced anxiety I would suggest simple calm walks, more info in holistic).</p>
+   <p>A personal recommedation of mine, is ironically the beach. You might think due to the surplus of people that visit it but the boost of serotonin and vitamin D from the sun's rays with the <a href="https://www.redbookmag.com/life/g33396215/beach-health-benefits/">additional effects, make it a good idea to try out in times of high stress.</a></p>
+ </div>
+ </div>
+ <br>
+ <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <div class="footer-container">
+    <a href="https://www.healthline.com/health/mental-health/how-to-cope-with-anxiety" id="footlink1">Learn More</a>
+    <a href="https://6e97999d-e47d-4bcb-90c7-41d8a63edba5-00-3k42rwkq9fi1p.janeway.replit.dev/" id="footlink2">Contact Us</a>
+    <a href="javascript:void(0);"onclick="togglePopup()" id="footlink3">Sign up for our newsletter</a>
+  </div>
+  
+  
+  <!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDD9sriWiw1CQmYmKcXA740Y4YQ2KGLabg&callback=initMap"></script>-->
+  <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+    ({key: "AIzaSyDD9sriWiw1CQmYmKcXA740Y4YQ2KGLabg", v: "weekly"});</script>
+  <script src="googlemaps.js"></script>
+  <script src="index.js"></script>
+  <script src="popup.js"></script>
+  
+</body>
+
+</html> 
